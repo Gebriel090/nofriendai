@@ -1,0 +1,21 @@
+Ainda tem que fazer otimizações visuais! ❌ - ✔
+
+Fazer a base do site ✔
+
+fazer o sidebar retrair ou expandir ao apertar na logo "NoFriendAI", entretanto tudo isso tem que ser feito com uma suavização! ✔
+
+Arrumar a posição das mensagens no chat da consversa ✔
+
+Fazer a authenticação pra acessar um chat em especifico, por exemplo, se um usuário tentar acessar um chat que não é dele, ele não conseguirá acessar o chat! ✔
+
+Arrumar a API do NoFriendAI. ❌ - ✔ 
+
+Arrumar a imagen da IA! ✔
+
+Arrumar a segurança das chaves API's! ❌
+
+Arrumar o texto gerado pela IA.✔
+
+Quem não tiver conta não poderá mandar mensagem ✔
+
+Quem já estiver logado não poderá acessar a rota '/signin' ✔
