@@ -24,3 +24,34 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 150, 0.3); 
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(150, 150, 150, 0.5);
+}
+
+.LogoName{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  transform: translateX(25px) translateY(2px);
+}
+
+.LogoName:hover{
+  color: #ff0000;
+}
