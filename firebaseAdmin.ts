@@ -8,6 +8,8 @@ if (!process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
   );
 }
 
+const serviceAccountAdmin = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
+
 let serviceAccount;
 try {
   serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
